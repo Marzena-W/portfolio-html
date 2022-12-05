@@ -20,7 +20,6 @@ body {
 }
 
 /* logo / nav */
-
 .nav-bar{
   height: 50px;
   width: 100%;
@@ -57,7 +56,6 @@ body {
 }
 
 /* hero banner */
-
 #hero-banner{
   background-color: var(--bg-yellow);  
   height: 600px;
@@ -77,7 +75,6 @@ body {
 }
 .intro-text p{
   font-size: 16px;
-
 }
 .banner-image{
   height: 85%;
@@ -87,6 +84,36 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+#about{
+  background-color: rgb(163, 155, 246);
+  padding: 20px;
+  color: var(--light-text-col);
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.profile-image{
+  height: 250px;
+  width: 500px;
+  border: 1px black solid;
+  border-radius: 12px;
+  margin: 50px;
+  background-color: var(--bg-color);
+  background-image: url("../images/avatar.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about-heading{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.about-text p{
+  margin-right: 50px;
+}
+
+
 
 /* portfolio container */
 #sub-heading{
