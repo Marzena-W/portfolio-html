@@ -84,6 +84,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
+/* about me */
 #about{
   background-color: rgb(163, 155, 246);
   padding: 20px;
@@ -195,6 +197,42 @@ button{
   font-size: 16px;
 }
 
+/* contact */
+#contact{
+  background-color: var(--bg-yellow);
+  text-align: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact h2 p{
+  color: black;
+}
+
+
+/* footer */
+#footer{
+  width: auto;
+  height: 50px;
+  background-color: black;
+  color: var(--light-text-col);
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  align-items: center;
+}
+
+#contact-info{
+  display: flex;
+  justify-content: flex-end;
+} 
+#contact-info p{
+  border-bottom: 1px white;
+  padding: 20px;
+  /* align-items: center; */
+}
+
 
 /* responsive */
 @media only screen and (max-width: 1000px) {
@@ -228,6 +266,24 @@ button{
     height: 100%;
     width: 70%;
   }
+  #about{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-image{
+    height: 40%;
+    width: 60%;
+    margin: 15px;
+  }
+  .about-text p{
+    font-size: 14px;
+    margin: 15px
+    }
+  button{
+    margin-bottom: 15px;
+  }
   #portfolio-section {
     grid-template-rows: 300px 300px 300px 300px 300px 300px;
     grid-template-columns: 1fr;
@@ -238,5 +294,14 @@ button{
       "project4"
       "project5"
       "project6"
+  }
+  #contact p{
+    margin: 25px;
+  }
+  #footer p{
+    font-size: 14px;
+  }
+  button{
+    margin-bottom: 15px;
   }
 }
