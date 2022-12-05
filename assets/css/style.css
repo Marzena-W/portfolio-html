@@ -88,11 +88,100 @@ body {
   background-size: 100% auto;
 }
 
+/* portfolio container */
+#sub-heading{
+  display: flex;
+  justify-content: space-around;
+}
+#sub-heading h3{
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 25px 0 10px 0;
+}
+
+#portfolio-section {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "project1 project1 project2"
+  "project1 project1 project3"
+  "project4 project5 project6";
+}
+
+#project1 {
+  grid-area: project1;
+  background-image: url("../images/01-project.png");
+}
+#project2 {
+  grid-area: project2;
+  background-image: url("../images/02-app.png");
+}
+#project3 {
+  grid-area: project3;
+  background-image: url("../images/03-magazine.png");
+}
+#project4 {
+  grid-area: project4;
+  background-image: url("../images/04-travel-app.png");
+}
+#project5 {
+  grid-area: project5;
+  background-image: url("../images/05-magazine.png");
+}
+#project6 {
+  grid-area: project6;
+  background-image: url("../images/06-dashboard.png");
+}
+
+.portfolioGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 15px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+  border-radius: 12px;
+  border: 1px solid;
+}
+.heading {
+  background-color: black;
+  padding: 5px;
+  color: var(--light-text-col);
+  font-size: 14px;
+  border-radius: 0 0 12px 12px;
+  text-transform: uppercase;
+  padding: 5px 20px ;
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  padding: 15px 35px;
+  border: solid 1px;
+  border-radius: 5px;
+  margin: 25px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+
 /* responsive */
 @media only screen and (max-width: 1000px) {
   .banner-image{
     height: 80%;
     width: 60%;
+  }
+  #portfolio-section {
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "project1 project2"
+    "project3 project4"
+    "project5 project6";
   }
 }
 
@@ -111,5 +200,16 @@ body {
   .banner-image{
     height: 100%;
     width: 70%;
+  }
+  #portfolio-section {
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "project1"
+      "project2"
+      "project3"
+      "project4"
+      "project5"
+      "project6"
   }
 }
