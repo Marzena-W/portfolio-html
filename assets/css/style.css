@@ -22,6 +22,7 @@ body {
 /* logo / nav */
 
 .container{
+  height: 50px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -40,9 +41,28 @@ body {
 .container h1{
   color: var(--light-text-col);
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 .menu a{
   color: var(--light-text-col);
-  padding-left: 15px;
+  padding: 8px 16px;
+  margin: 0 8px;
+}
+
+.menu{
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 -8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container h1{
+    font-size: 20px;
+  }
+  .menu a{
+    padding: 5px;
+  }
 }
