@@ -6,12 +6,11 @@
 > I needed to use grids and flexboxes and making it responsive.
 > The challenge allowed to create a new layout if we keep key elelments from the example (banner, about secion, portfolio and contact)
 
-
 ## Usage 
 
 * Deployed application - [https://marzena-w.github.io/challenge2/]
 * Screenshot of the portfolio:
-![Personal portfolio](https://github.com/Marzena-W/challenge2/blob/main/assets/images/challange2-personal-portfolio.png)
+![Personal portfolio](assets/images/challange2-personal-portfolio.png)
 
 
 ## Credits
