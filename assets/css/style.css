@@ -163,7 +163,6 @@ body {
   grid-area: project6;
   background-image: url("../images/06-dashboard.png");
 }
-
 .portfolioGridArea {
   background-position: center;
   background-size: cover;
@@ -175,7 +174,7 @@ body {
   border-radius: 12px;
   border: 1px solid;
 }
-.heading {
+.heading{
   background-color: black;
   padding: 5px;
   color: var(--light-text-col);
@@ -184,30 +183,42 @@ body {
   text-transform: uppercase;
   padding: 5px 20px ;
 }
-.button{
+
+
+#port-button{
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 500px 25px 500px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
-button{
-  padding: 15px 35px;
-  border: solid 1px;
-  border-radius: 5px;
-  margin: 25px;
+#port-button p{
+  color: black;
   text-transform: uppercase;
   font-size: 16px;
+  text-align: center;
+  background-color: var(--bg-color);
+  
 }
+
 
 /* contact */
 #contact{
   background-color: var(--bg-yellow);
   text-align: center;
-  height: 200px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+#contact h2{
+  padding-bottom: 10px;
+}
 #contact h2 p{
   color: black;
+  padding: 45px;
 }
 
 
@@ -230,7 +241,6 @@ button{
 #contact-info p{
   border-bottom: 1px white;
   padding: 20px;
-  /* align-items: center; */
 }
 
 
@@ -238,7 +248,7 @@ button{
 @media only screen and (max-width: 1000px) {
   .banner-image{
     height: 80%;
-    width: 60%;
+    width: 55%;
   }
   #portfolio-section {
     grid-template-rows: 300px 300px 300px;
@@ -274,16 +284,13 @@ button{
   }
   .profile-image{
     height: 40%;
-    width: 60%;
+    width: 70%;
     margin: 15px;
   }
   .about-text p{
     font-size: 14px;
     margin: 15px
     }
-  button{
-    margin-bottom: 15px;
-  }
   #portfolio-section {
     grid-template-rows: 300px 300px 300px 300px 300px 300px;
     grid-template-columns: 1fr;
@@ -295,13 +302,10 @@ button{
       "project5"
       "project6"
   }
-  #contact p{
-    margin: 25px;
-  }
   #footer p{
     font-size: 14px;
   }
-  button{
-    margin-bottom: 15px;
+  #contact{
+    padding: 0 50px;
   }
 }
