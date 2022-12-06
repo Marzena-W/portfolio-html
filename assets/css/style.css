@@ -137,7 +137,6 @@ button{
   text-transform: uppercase;
   padding: 25px 0 10px 0;
 }
-
 #portfolio-section {
   margin: 0px 5%;
   display: grid;
@@ -148,7 +147,6 @@ button{
   "project1 project1 project3"
   "project4 project5 project6";
 }
-
 #project1 {
   grid-area: project1;
   background-image: url("../images/01-project.png");
@@ -184,7 +182,6 @@ button{
   border-radius: 12px;
   border: 1px solid;
 }
-
 .heading{
   background-color: black;
   padding: 5px;
@@ -195,13 +192,8 @@ button{
   padding: 5px 20px ;
 }
 #port-button{
-  border: solid 1px black;
-  border-radius: 5px;
-  padding: 10px;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 150px;
 }
 #port-button p{
   color: black;
@@ -209,6 +201,11 @@ button{
   font-size: 16px;
   text-align: center;
   background-color: var(--bg-color);
+  padding: 10px;
+  width: 150px;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin: 15px 0 35px 0;
 }
 
 
@@ -239,7 +236,6 @@ button{
   color: var(--light-text-col);
   display: flex;
   justify-content: space-around;
-  align-content: flex-end;
   align-items: center;
 }
 
