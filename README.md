@@ -10,7 +10,7 @@
 
 * Deployed application - [https://marzena-w.github.io/challenge2/]
 * Screenshot of the portfolio:
-![Personal portfolio](assets/images/challange2-personal-portfolio.png)
+![Personal portfolio](images/challange2-personal-portfolio.png)
 
 
 ## Credits
