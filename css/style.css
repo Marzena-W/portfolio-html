@@ -20,6 +20,9 @@ body {
 }
 
 /* logo / nav */
+.short{ 
+    display: none;
+  }
 .nav-bar{
   height: 50px;
   width: 100%;
@@ -266,17 +269,33 @@ button{
 }
 
 @media only screen and (max-width: 600px) {
+  .long{ 
+    display: none;
+  }
+  .short{
+    display: block;
+  }
   .container h1{
     font-size: 18px;
   }
   .menu a{
     padding: 5px;
   }
+  .nav-bar h1{
+    letter-spacing: -2px;
+  }
   #hero-banner{
     height: 500px;
     width: 100%;
     padding-bottom: 80px;
   }
+  .intro-text h2{
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+   .intro-text p{
+    padding: 0 35px;
+   }
   .banner-image{
     height: 100%;
     width: 70%;
