@@ -8,7 +8,7 @@
 
 ## Usage 
 
-* Deployed application - [https://marzena-w.github.io/challenge2/]
+* Deployed application - [https://marzena-w.github.io/portfolio-html/]
 * Screenshot of the portfolio:
 ![Personal portfolio](images/challange2-personal-portfolio.png)
 
